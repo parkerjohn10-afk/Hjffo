@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Checking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <span class="time">4:25</span>
+    <span class="status-icons">📶 🔋</span>
+</div>
+
+<div class="account-section">
+    <h2>Student Checking<br><span class="sub">***89077</span></h2>
+    <div class="balance-box">
+        <p>AVAILABLE BALANCE</p>
+        <h1>$1,016.80</h1>
+        <p class="hold">FUNDS ON HOLD: <span>$58.03</span></p>
+        <p class="current">CURRENT BALANCE: <strong>$1,074.83</strong></p>
+    </div>
+</div>
+
+<div class="search-bar">
+    <input type="text" placeholder="Search">
+</div>
+
+<h3 class="section-title">PENDING TRANSACTIONS</h3>
+
+<div class="transaction">
+    <div>
+        <p class="title">EMAGINE NOBLESV 13825 NORELL RD...</p>
+        <p class="sub">Debit Card Preauth Hold-1161</p>
+        <p class="sub">Effective: Nov 26, 2025 — Release: Nov 29, 2025</p>
+    </div>
+    <p class="amount">$9.00</p>
+</div>
+
+<div class="transaction">
+    <div>
+        <p class="title">MARATHON 1040 12512 E 116TH STREEFI...</p>
+        <p class="sub">Debit Card Preauth Hold-1161</p>
+        <p class="sub">Effective: Nov 26, 2025 — Release: Nov 29, 2025</p>
+    </div>
+    <p class="amount">$6.83</p>
+</div>
+
+<div class="transaction">
+    <div>
+        <p class="title">07932 PF FISHER 11728 FISHERS CROSSF...</p>
+        <p class="sub">Debit Card Preauth Hold-1161</p>
+        <p class="sub">Effective: Nov 26, 2025 — Release: Nov 29, 2025</p>
+    </div>
+    <p class="amount">$18.25</p>
+</div>
+
+<h3 class="section-title">November 27, 2025</h3>
+
+<div class="transaction negative">
+    <div>
+        <p class="title">POS Withdrawal - TEXAS ROADHOUSE...</p>
+        <p class="sub">Dining</p>
+    </div>
+    <p class="amount">-$21.24</p>
+</div>
+
+<div class="transaction negative">
+    <div>
+        <p class="title">POS Withdrawal - DD *DOORDASH...</p>
+        <p class="sub">Dining</p>
+    </div>
+    <p class="amount">-$13.96</p>
+</div>
+
+<div class="transaction negative">
+    <div>
+        <p class="title">POS Withdrawal - SoundCloud...</p>
+        <p class="sub">Dining</p>
+    </div>
+    <p class="amount">-$10.99</p>
+</div>
+
+</body>
+</html>
